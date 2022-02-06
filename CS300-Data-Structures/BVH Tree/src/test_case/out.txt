@@ -1,0 +1,47 @@
+Current tree:
++ branch || min = (0, 0), max = (6, 7), Area = 42
+  + branch || min = (2, 2), max = (6, 7), Area = 20
+    + branch || min = (2, 3), max = (5, 7), Area = 12
+      - R - leaf: A1 || min = (2, 3), max = (5, 6), Area = 9
+      - L - leaf: A5 || min = (3, 6), max = (5, 7), Area = 2
+    - L - leaf: A3 || min = (4, 2), max = (6, 5), Area = 6
+  + branch || min = (0, 0), max = (4, 5), Area = 20
+    - R - leaf: A2 || min = (0, 2), max = (3, 5), Area = 9
+    - L - leaf: A4 || min = (1, 0), max = (4, 1), Area = 3
+
+Moved the A1 to the location (5, 1), (8, 4)
+Current tree:
++ branch || min = (0, 0), max = (8, 7), Area = 56
+  + branch || min = (3, 1), max = (8, 7), Area = 30
+    - R - leaf: A5 || min = (3, 6), max = (5, 7), Area = 2
+    + branch || min = (4, 1), max = (8, 5), Area = 16
+      - R - leaf: A3 || min = (4, 2), max = (6, 5), Area = 6
+      - L - leaf: A1 || min = (5, 1), max = (8, 4), Area = 9
+  + branch || min = (0, 0), max = (4, 5), Area = 20
+    - R - leaf: A2 || min = (0, 2), max = (3, 5), Area = 9
+    - L - leaf: A4 || min = (1, 0), max = (4, 1), Area = 3
+
+Moved the A3 to the location (0, 0), (2, 1)
+Current tree:
++ branch || min = (0, 0), max = (8, 7), Area = 56
+  + branch || min = (3, 1), max = (8, 7), Area = 30
+    - R - leaf: A5 || min = (3, 6), max = (5, 7), Area = 2
+    - L - leaf: A1 || min = (5, 1), max = (8, 4), Area = 9
+  + branch || min = (0, 0), max = (4, 5), Area = 20
+    - R - leaf: A2 || min = (0, 2), max = (3, 5), Area = 9
+    + branch || min = (0, 0), max = (4, 1), Area = 4
+      - R - leaf: A4 || min = (1, 0), max = (4, 1), Area = 3
+      - L - leaf: A3 || min = (0, 0), max = (2, 1), Area = 2
+
+Moved the A2 to the location (5, 1), (8, 2)
+Current tree:
++ branch || min = (0, 0), max = (8, 7), Area = 56
+  + branch || min = (3, 1), max = (8, 7), Area = 30
+    - R - leaf: A5 || min = (3, 6), max = (5, 7), Area = 2
+    + branch || min = (5, 1), max = (8, 4), Area = 9
+      - R - leaf: A1 || min = (5, 1), max = (8, 4), Area = 9
+      - L - leaf: A2 || min = (5, 1), max = (8, 2), Area = 3
+  + branch || min = (0, 0), max = (4, 1), Area = 4
+    - R - leaf: A4 || min = (1, 0), max = (4, 1), Area = 3
+    - L - leaf: A3 || min = (0, 0), max = (2, 1), Area = 2
+

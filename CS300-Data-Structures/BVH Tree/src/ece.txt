@@ -1,0 +1,18 @@
+Projectile (1, 2), (2, 3)
+Collides with: left-leg, right-leg, torso
+Projectile (10, 10), (11, 11)
+Collides with: 
+Projectile (0, 3), (1, 8)
+Collides with: head, left-leg, torso
+Moved the left-leg to the location (1, 0), (2, 3)
+Projectile (0, 3), (1, 8)
+Collides with: head, left-leg, torso
+Current tree:
++ branch || min = (0, 0), max = (3, 8), Area = 24
+  - R - leaf: left-leg || min = (1, 0), max = (2, 3), Area = 3
+  + branch || min = (0, 0), max = (3, 8), Area = 24
+    - R - leaf: right-leg || min = (2, 0), max = (3, 3), Area = 3
+    + branch || min = (0, 3), max = (3, 8), Area = 15
+      - R - leaf: torso || min = (0, 3), max = (3, 7), Area = 12
+      - L - leaf: head || min = (1, 7), max = (3, 8), Area = 2
+
