@@ -1,0 +1,248 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Dec 29 19:25:11 2021
+# Process ID: 31268
+# Current directory: C:/Users/ecekarasu/term_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29668 C:\Users\ecekarasu\term_project\term_project.xpr
+# Log file: C:/Users/ecekarasu/term_project/vivado.log
+# Journal file: C:/Users/ecekarasu/term_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ecekarasu/term_project/term_project.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+launch_simulation
+source tel_tb_2.tcl
+close_sim
+launch_simulation
+source tel_tb_2.tcl
+config_webtalk -user on
+set_property loop_count 5000 [current_fileset]
+update_ip_catalog
+update_ip_catalog
+update_ip_catalog
+close_sim
+launch_simulation
+source tel_tb_2.tcl
+set_property loop_count 1000 [current_fileset]
+update_ip_catalog
+update_ip_catalog
+close_sim
+launch_simulation
+source tel_tb_2.tcl
+run 50 ns
+run 50 ns
+close_sim
+launch_simulation
+source tel_tb_2.tcl
+run 1000 ns
+run 1000 ns
+run 500 ns
+run 500 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation
+source tel_tb_2.tcl
+run 200 ns
+run 200 ns
+close_sim
+launch_simulation
+source tel_tb_2.tcl
+run 200 ns
+run 200 ns
+close_sim
+launch_simulation
+source tel_tb_2.tcl
+run 200 ns
+run 200 ns
+close_sim
+launch_simulation
+source tel_tb_2.tcl
+run 200 ns
+current_sim simulation_30
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+run 200 ns
+close_sim
+launch_simulation
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+current_sim simulation_39
+close_sim
+launch_simulation
+source tel_tb_2.tcl
+run 200 ns
+run 150 ns
+run 170 ns
+run 180 ns
+run 190 ns
+run 200 ns
+run 120 ns
+run 30 ns
+run 100 ns
+run 200 ns
+run 20 ns
+run 1.2 ns
+close_sim
+launch_simulation
+source tel_tb_2.tcl
+run 200 ns
+save_wave_config {C:/Users/ecekarasu/term_project/tel_tb_2_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/ecekarasu/term_project/tel_tb_2_behav.wcfg
+set_property xsim.view C:/Users/ecekarasu/term_project/tel_tb_2_behav.wcfg [get_filesets sim_1]
+file mkdir C:/Users/ecekarasu/term_project/term_project.srcs/constrs_1
+file mkdir C:/Users/ecekarasu/term_project/term_project.srcs/constrs_1/new
+close [ open C:/Users/ecekarasu/term_project/term_project.srcs/constrs_1/new/cons_tel_tb.xdc w ]
+add_files -fileset constrs_1 C:/Users/ecekarasu/term_project/term_project.srcs/constrs_1/new/cons_tel_tb.xdc
+export_ip_user_files -of_objects  [get_files C:/Users/ecekarasu/term_project/term_project.srcs/constrs_1/new/cons_tel_tb.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/ecekarasu/term_project/term_project.srcs/constrs_1/new/cons_tel_tb.xdc
+file delete -force C:/Users/ecekarasu/term_project/term_project.srcs/constrs_1/new/cons_tel_tb.xdc
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config C:/Users/ecekarasu/term_project/tel_tb_2_behav.wcfg
+source tel_tb_2.tcl
+run 200 ns
+save_wave_config {C:/Users/ecekarasu/term_project/tel_tb_2_behav.wcfg}
+save_wave_config {C:/Users/ecekarasu/term_project/tel_tb_2_behav.wcfg}
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config C:/Users/ecekarasu/term_project/tel_tb_2_behav.wcfg
+source tel_tb_2.tcl
+run 200 ns
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+current_sim simulation_44
+close_sim
+launch_simulation
+open_wave_config C:/Users/ecekarasu/term_project/tel_tb_2_behav.wcfg
+source tel_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/ecekarasu/term_project/tel_tb_2_behav.wcfg
+source tel_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/ecekarasu/term_project/tel_tb_2_behav.wcfg
+source tel_tb.tcl
+close_sim
+launch_simulation
+source tel_tb.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+save_wave_config {C:/Users/ecekarasu/term_project/tel_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/ecekarasu/term_project/tel_tb_behav.wcfg
+set_property xsim.view {C:/Users/ecekarasu/term_project/tel_tb_2_behav.wcfg C:/Users/ecekarasu/term_project/tel_tb_behav.wcfg} [get_filesets sim_1]
+current_sim simulation_48
+close_sim
+launch_simulation
+open_wave_config C:/Users/ecekarasu/term_project/tel_tb_behav.wcfg
+source tel_tb_2.tcl
+close_sim
+close_sim

@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ecekarasu/lab3_2/lab3_2.sim/sim_1/impl/timing/xsim/cla_sim_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ecekarasu/lab3_2/lab3_2.srcs/sim_1/new/cla_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla_sim

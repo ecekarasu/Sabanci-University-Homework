@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ecekarasu/term_project/term_project.srcs/sources_1/new/tel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ecekarasu/term_project/term_project.srcs/sim_1/new/tel_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tel_tb_2

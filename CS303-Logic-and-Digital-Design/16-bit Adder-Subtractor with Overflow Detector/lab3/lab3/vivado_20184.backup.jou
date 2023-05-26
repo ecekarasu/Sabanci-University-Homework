@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Nov 28 13:08:02 2021
+# Process ID: 20184
+# Current directory: C:/Users/ecekarasu/lab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14764 C:\Users\ecekarasu\lab3\lab3.xpr
+# Log file: C:/Users/ecekarasu/lab3/vivado.log
+# Journal file: C:/Users/ecekarasu/lab3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ecekarasu/lab3/lab3.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source detector_sim.tcl
+close_sim
+launch_simulation
+source detector_sim.tcl
+close_sim
+launch_simulation
+source detector_sim.tcl
+add_bp {C:/Users/ecekarasu/lab3/lab3.srcs/sources_1/new/overflow_detector.v} 31
+remove_bps -file {C:/Users/ecekarasu/lab3/lab3.srcs/sources_1/new/overflow_detector.v} -line 31
+add_bp {C:/Users/ecekarasu/lab3/lab3.srcs/sources_1/new/overflow_detector.v} 31
+remove_bps -all
+add_bp {C:/Users/ecekarasu/lab3/lab3.srcs/sources_1/new/overflow_detector.v} 31
+remove_bps -all
+add_bp {C:/Users/ecekarasu/lab3/lab3.srcs/sources_1/new/overflow_detector.v} 31
+remove_bps -all
+close_sim
+launch_simulation
+source detector_sim.tcl
+close_sim
+launch_simulation
+source detector_sim.tcl
+close_sim
+launch_simulation
+source detector_sim.tcl
+close_sim
+launch_simulation
+source detector_sim.tcl
+close_sim
+launch_simulation
+source detector_sim.tcl
+close_sim
+launch_simulation
+source detector_sim.tcl
+save_wave_config {C:/Users/ecekarasu/lab3/my_wave.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/ecekarasu/lab3/my_wave.wcfg
+set_property xsim.view C:/Users/ecekarasu/lab3/my_wave.wcfg [get_filesets sim_1]
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+close_sim
+launch_simulation
+open_wave_config C:/Users/ecekarasu/lab3/my_wave.wcfg
+source detector_sim.tcl
+save_wave_config {C:/Users/ecekarasu/lab3/my_wave.wcfg}
+close_sim

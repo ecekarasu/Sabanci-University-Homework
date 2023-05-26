@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Nov 28 15:45:42 2021
+# Process ID: 20796
+# Current directory: C:/Users/ecekarasu/lab3/lab3.runs/synth_1
+# Command line: vivado.exe -log overflow_detector.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source overflow_detector.tcl
+# Log file: C:/Users/ecekarasu/lab3/lab3.runs/synth_1/overflow_detector.vds
+# Journal file: C:/Users/ecekarasu/lab3/lab3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source overflow_detector.tcl -notrace

@@ -1,0 +1,69 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Addition -- Testcase:          0
+Addition result is correct!  3521 ==  3521
+Overflow result is correct! 0 == 0
+
+Addition -- Testcase:          1
+Addition result is correct!  2735 ==  2735
+Overflow result is correct! 0 == 0
+
+Addition -- Testcase:          2
+Addition result is correct! 62369 == 62369
+Overflow result is correct! 0 == 0
+
+Addition -- Testcase:          3
+Addition result is correct!  1537 ==  1537
+Overflow result is correct! 0 == 0
+
+Addition -- Testcase:          4
+Addition result is correct! 59757 == 59757
+Overflow result is correct! 0 == 0
+
+Addition -- Testcase:          5
+Addition result is correct! 51629 == 51629
+Overflow result is correct! 0 == 0
+
+Addition -- Testcase:          6
+Addition result is correct! 65120 == 65120
+Overflow result is correct! 1 == 1
+
+Addition -- Testcase:          7
+Addition result is correct! 32097 == 32097
+Overflow result is correct! 1 == 1
+
+Subtraction -- Testcase:          8
+Subtraction result is correct!  5500 ==  5500
+Overflow result is correct! 0 == 0
+
+Subtraction -- Testcase:          9
+Subtraction result is correct! 56788 == 56788
+Overflow result is correct! 0 == 0
+
+Subtraction -- Testcase:         10
+Subtraction result is correct!  6642 ==  6642
+Overflow result is correct! 0 == 0
+
+Subtraction -- Testcase:         11
+Subtraction result is correct! 51483 == 51483
+Overflow result is correct! 0 == 0
+
+Subtraction -- Testcase:         12
+Subtraction result is correct!  3602 ==  3602
+Overflow result is correct! 0 == 0
+
+Subtraction -- Testcase:         13
+Subtraction result is correct! 56892 == 56892
+Overflow result is correct! 0 == 0
+
+Subtraction -- Testcase:         14
+Subtraction result is correct! 55221 == 55221
+Overflow result is correct! 1 == 1
+
+Subtraction -- Testcase:         15
+Subtraction result is correct! 18730 == 18730
+Overflow result is correct! 1 == 1
+
+Your simulation grade is          44 out of          44!
+
+$finish called at time : 281 ns : File "C:/Users/ecekarasu/lab3_2/lab3_2.srcs/sim_1/new/cla_sim.v" Line 393
